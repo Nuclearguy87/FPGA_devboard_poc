@@ -1,0 +1,99 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6007b2d4-bc88-414b-b438-71979be29223)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 26.67 21.59) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 106fe2e9-5319-42db-90f8-e7757a090372)
+    (property "Sheetname" "Power" (at 26.67 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 26.67 25.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGA"
+        (path "/6007b2d4-bc88-414b-b438-71979be29223" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 26.67 62.23) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 26a1e10a-fd74-4d5a-8830-d4ca534fe725)
+    (property "Sheetname" "IO2" (at 26.67 61.5184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "IO2.kicad_sch" (at 26.67 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGA"
+        (path "/6007b2d4-bc88-414b-b438-71979be29223" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 26.67 31.75) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4a888220-2b5b-460d-8963-bd90d096bd77)
+    (property "Sheetname" "Power_Supply" (at 26.67 31.0384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power_Supply.kicad_sch" (at 26.67 36.1446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGA"
+        (path "/6007b2d4-bc88-414b-b438-71979be29223" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 26.67 52.07) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dce9c75c-0e51-4629-afcb-15f98e11715f)
+    (property "Sheetname" "IO1" (at 26.67 51.3584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "IO1.kicad_sch" (at 26.67 56.4646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGA"
+        (path "/6007b2d4-bc88-414b-b438-71979be29223" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 26.67 41.91) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e9106f25-3cdf-43a9-bbc4-884490ab5ac1)
+    (property "Sheetname" "Configuration" (at 26.67 41.1984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Configuration.kicad_sch" (at 26.67 46.3046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FPGA"
+        (path "/6007b2d4-bc88-414b-b438-71979be29223" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

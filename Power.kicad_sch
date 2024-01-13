@@ -2508,7 +2508,7 @@
     (property "Value" "47u" (at 113.03 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 110.1852 106.68 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 110.1852 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 109.22 102.87 0)
